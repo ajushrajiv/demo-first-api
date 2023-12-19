@@ -9,15 +9,16 @@
 `GET /itembyid/{itemdId}`: Gibt ein einzelnes Elemnt zurück.
 **Parameter**: `itemId` - Einzigartige Id des Elements
 
-Erstellen von einem neuen Element
+## Erstellen von einem neuen Element
 `POST /dbname/item`
 
-Löschen von einem Element
+## Löschen von einem Element
 
-`DELETE /dbname`
-`DELETE /dbname/{itemid}`
+`DELETE /dbname` :delete the whole database 
+`DELETE /dbname/{itemid}` :deletes a single item from the list
 
-Aktualisieren von einem Element
+
+## Aktualisieren von einem Element
 
 `GET /dbname/{itemid}`
-`POST /dbname/{dbid}`
+`POST /dbname/{itemid}`
